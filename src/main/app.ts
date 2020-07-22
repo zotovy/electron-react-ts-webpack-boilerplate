@@ -15,6 +15,8 @@ class TimerApp {
         this.mainWindow = new BrowserWindow({
             height: 600,
             width: 800,
+            frame: false,
+            // transparent: true,
             webPreferences: {
                 webSecurity: false,
                 devTools: process.env.NODE_ENV === "production" ? false : true,

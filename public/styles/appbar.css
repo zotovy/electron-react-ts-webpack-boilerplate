@@ -1,0 +1,66 @@
+.appbar {
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+
+.appbar-menu-buttons {
+    display: flex;
+
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.appbar-menu-drag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    -webkit-app-region: drag;
+}
+
+.appbar-menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.appbar-menu-button i {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.appbar-menu-button#close {
+    background: #ff5f58;
+}
+
+.appbar-menu-button#close:hover {
+    background: #e4564e;
+}
+
+.appbar-menu-button#minimize {
+    background: #ffbd2d;
+}
+
+.appbar-menu-button#minimize:hover {
+    background: #e7ab28;
+}
+
+.appbar-menu-button#zoom {
+    background: #29ca41;
+}
+
+.appbar-menu-button#zoom:hover {
+    background: #26b83c;
+}
+
+.appbar-menu-title {
+    margin-right: 74px;
+}
